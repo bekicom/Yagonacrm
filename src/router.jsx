@@ -25,7 +25,7 @@ import AddTeacherDavomat from "./pages/teacherDavomat/addTeacherDavomat";
 import PaymentLog from "./pages/payment/paymentLog";
 import Fan from "./pages/Fan/Fan";
 import Darsjadval from "./pages/DarsJadval/Darsjadval";
-//
+//maana gandon
 const NotFound = () => <h1>404</h1>;
 
 export const Routera = memo(() => {
