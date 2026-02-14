@@ -63,7 +63,8 @@ export const Debt = () => {
   // 🟢 Barcha oylarni generatsiya qilish
   useEffect(() => {
     generateAllMonths();
-  }, []);
+  }, [generateAllMonths]);
+
 
   const generateAllMonths = () => {
     const currentYear = moment().year();
