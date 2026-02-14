@@ -9,7 +9,7 @@ import { SnackbarProvider } from "notistack";
 import { Loading } from "./components/loading/loading";
 import store from "./context/store";
 import { WebSocketProvider } from "./components/WebSocketProvider"; // Bu faylni yaratishimiz kerak
-// sasa
+//
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
